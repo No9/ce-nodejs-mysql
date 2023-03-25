@@ -1,0 +1,24 @@
+{
+  "name": "ce-nodejs-mysql",
+  "version": "1.0.0",
+  "description": "Sample node.js project connecting to mysql on code engine ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/No9/ce-nodejs-mysql.git"
+  },
+  "author": "anton whalley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/No9/ce-nodejs-mysql/issues"
+  },
+  "homepage": "https://github.com/No9/ce-nodejs-mysql#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.0"
+  }
+}
