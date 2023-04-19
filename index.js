@@ -31,6 +31,18 @@ app.get("/", function (request, response) {
         });
 });
 
+app.get("/api", function (request, response) {
+    getDate()
+        .then(function (words) {
+            response.send(words);
+        })
+        .catch(function (err) {
+            console.log(err);
+            response.status(500).send(err);
+        });
+});
+
+
 // Listen for a connection.
 app.listen(port, '0.0.0.0', function () {
     console.log("Server is listening on port " + port);
